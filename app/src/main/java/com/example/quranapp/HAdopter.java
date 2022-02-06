@@ -1,10 +1,13 @@
 package com.example.quranapp;
 
 import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -58,6 +61,23 @@ Context context;
             para = itemView.findViewById(R.id.paraName);
             number = itemView.findViewById(R.id.numbers);
 
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                    models.get(getAdapterPosition());
+
+
+                            Bundle bundle = new Bundle();
+                            String string = Integer.toString(getAdapterPosition());
+                            bundle.putString("position",string);
+
+                            Intent intent = new Intent(context, MainActivity.class);
+                            intent.putExtras(bundle);
+                            context.startActivity(intent);
+
+                }
+            });
 
 
         }

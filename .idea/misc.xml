@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Andriod_Projects_2021/Quran e Pak/app/src/main/res/drawable/bglayout.xml" value="0.18645833333333334" />
+        <entry key="..\:/Andriod_Projects_2021/Quran e Pak/app/src/main/res/drawable/toplay.xml" value="0.18645833333333334" />
         <entry key="..\:/Andriod_Projects_2021/Quran e Pak/app/src/main/res/layout/activity_home_ativity.xml" value="0.2" />
-        <entry key="..\:/Andriod_Projects_2021/Quran e Pak/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Andriod_Projects_2021/Quran e Pak/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/Andriod_Projects_2021/Quran e Pak/app/src/main/res/layout/activity_para.xml" value="0.2" />
         <entry key="..\:/Andriod_Projects_2021/Quran e Pak/app/src/main/res/layout/row_template.xml" value="0.2" />
       </map>

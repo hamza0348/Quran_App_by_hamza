@@ -4,12 +4,12 @@ public class HModel {
 
     String para;
     String number;
-    String paraBtn;
 
-    public HModel(String para, String number, String paraBtn) {
+
+    public HModel(String para, String number) {
         this.para = para;
         this.number = number;
-        this.paraBtn = paraBtn;
+
     }
 
 
@@ -19,9 +19,5 @@ public class HModel {
 
     public String getNumber() {
         return number;
-    }
-
-    public String getParaBtn() {
-        return paraBtn;
     }
 }
