@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         case 0:
 
             mypdfviewer.fromAsset("quran.pdf").load();
+            progressBar.setVisibility(View.GONE);
             show();
             break;
 
@@ -97,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(55);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -112,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(83);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -128,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(111);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -143,6 +147,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(139);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -160,6 +165,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(167);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -175,6 +181,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(195);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -189,6 +196,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(223);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -205,6 +213,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(251);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -222,6 +231,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(279);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -239,6 +249,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(307);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -257,6 +268,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(335);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -275,6 +287,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(363);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -291,6 +304,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(391);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -307,6 +321,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(419);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -324,6 +339,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(447);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -341,6 +357,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(475);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -360,6 +377,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(503);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -377,6 +395,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(531);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -394,6 +413,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(557);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -411,6 +431,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(585);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -427,6 +448,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(611);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -444,6 +466,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(639);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -459,6 +482,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(665);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -474,6 +498,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(695);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -490,6 +515,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(725);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -505,6 +531,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(755);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -521,6 +548,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(785);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -538,6 +566,7 @@ public class MainActivity extends AppCompatActivity {
                 public void run() {
 
                     mypdfviewer.jumpTo(817);
+                    progressBar.setVisibility(View.GONE);
                 }
             },1800);
 
@@ -582,6 +611,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
+
+             Intent i = new Intent(MainActivity.this,paraActivity.class);
+             startActivity(i);
+
+
+
+
+
             }
         });
 
@@ -599,10 +636,21 @@ public class MainActivity extends AppCompatActivity {
 
     private void show() {
 
-mypdfviewer.setVisibility(View.VISIBLE);
+        mypdfviewer.setVisibility(View.VISIBLE);
+        pre.setVisibility(View.VISIBLE);
+        next.setVisibility(View.VISIBLE);
+        menu.setVisibility(View.VISIBLE);
+
+
 
 
     }
+
+
+
+
+
+
 
 
 }
